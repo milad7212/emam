@@ -3,10 +3,10 @@ import { useState } from "react";
 import React from "react";
 import { Dialog } from "@headlessui/react";
 const navigation = [
-  { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
+  { name: "خدمات", href: "#" },
+  { name: "درباره ما", href: "#" },
+  { name: "باشگاه خدام", href: "#" },
+  { name: "خادم شو", href: "#" },
 ];
 const TopMenu = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
