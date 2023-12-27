@@ -4,9 +4,12 @@ import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
 
 const faqs = [
   {
-    question: "What's the best thing about Switzerland?",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    question: "شرایط خادم شدن به چه صورت است؟",
+    answer: "شرایط سنی باید بالاتر از 18 سال باشد",
+  },
+  {
+    question: "چگونه می شود در چایخانه خدمت کرد؟",
+    answer: "بر اساس امتیاز نوبت دهی میشود و از طرق پیامک اطلاع داده میشود.",
   },
   // More questions...
 ];
