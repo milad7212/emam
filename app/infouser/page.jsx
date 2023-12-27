@@ -3,7 +3,7 @@ import Stacked from "../components/forms/Stacked";
 
 const InfoUserPage = () => {
   return (
-    <div className="max-w-3xl mx-auto">
+    <div className="max-w-5xl mx-auto">
       <Stacked />
     </div>
   );
