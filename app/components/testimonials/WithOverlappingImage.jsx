@@ -1,4 +1,6 @@
 "use client";
+import Image from "next/image";
+import emam2 from "../../../public/images/emam2.jpg";
 export default function WithOverlappingImage() {
   return (
     <div className="bg-white pb-16 pt-24 sm:pb-24 sm:pt-32 xl:pb-32">
@@ -6,9 +8,9 @@ export default function WithOverlappingImage() {
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
           <div className="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
             <div className="relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
-              <img
+              <Image
+                src={emam2}
                 className="absolute inset-0 h-full w-full rounded-2xl bg-gray-800 object-cover shadow-2xl"
-                src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"
                 alt=""
               />
             </div>
@@ -29,15 +31,18 @@ export default function WithOverlappingImage() {
               </svg>
               <blockquote className="text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
                 <p>
-                  Gravida quam mi erat tortor neque molestie. Auctor aliquet at
-                  porttitor a enim nunc suscipit tincidunt nunc. Et non lorem
-                  tortor posuere. Nunc eu scelerisque interdum eget tellus non
-                  nibh scelerisque bibendum.
+                  مؤمن، مؤمن واقعی نیست، مگر آن که سه خصلت در او باشد:سنّتی از
+                  پروردگارش و سنّتی از پیامبرش و سنّتی از امامش. امّا سنّت
+                  پروردگارش، پوشاندن راز خود است،امّا سنّت پیغمبرش، مدارا و نرم
+                  رفتاری با مردم است،امّا سنّت امامش، صبر کردن در زمان تنگدستی و
+                  پریشان حالی است.
                 </p>
               </blockquote>
               <figcaption className="mt-8 text-base">
-                <div className="font-semibold text-white">Judith Black</div>
-                <div className="mt-1 text-gray-400">CEO of Workcation</div>
+                <div className="font-semibold text-white">امام رضا</div>
+                <div className="mt-1 text-gray-400">
+                  امالی صدوق، ج 1، ص 339{" "}
+                </div>
               </figcaption>
             </figure>
           </div>

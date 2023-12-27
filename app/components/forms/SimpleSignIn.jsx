@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 /*
   This example requires some changes to your config:
   
@@ -86,12 +88,11 @@ export default function SimpleSignIn() {
             </div>
 
             <div>
-              <button
-                type="submit"
-                className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >
-                ورود
-              </button>
+              <Link href="login">
+                <span className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                  ورود
+                </span>
+              </Link>
             </div>
           </form>
 
